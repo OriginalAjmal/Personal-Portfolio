@@ -3,7 +3,7 @@ import React,{useEffect, useState} from 'react'
 const useThemeSwitcher = () => {
 
     const preferDarkQuery = "(prefer-color-scheme:dark)";
-    preferDarkQuery.matches
+    // preferDarkQuery.matches
     const [mode, setMode] = useState("");
 
     useEffect(() => {
@@ -23,7 +23,7 @@ const useThemeSwitcher = () => {
                 }
             } else {
                     let check = mediaQuery.matches ? "dark" : "light";
-                setmode(check);
+                setMode(check);
                 if (check === "dark") {
                     document.documentElement.classList.add("dark")
 

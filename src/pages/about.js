@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import Head from 'next/head'
 import AnimatedText from '@/Components/AnimatedText'
 import Layout from '@/Components/Layout'
-import profilePic from "../../public/images/profile/developer-pic-3.png"
+import profilePic from "../../public/images/profile/developer-pic-4.png"
 import Image from 'next/image'
 import Skills from '@/Components/Skills'
 import Experience from '@/Components/Experience'
@@ -54,21 +54,14 @@ const about = () => {
                       <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                           <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'> BioGraphy</h2>
                           <p className='font-medium'>
-                          Hi, I am CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
-and user-centered digital experiences. With 4 years of experience in the field. I am always looking for 
-new and innovative ways to bring my clients visions to life.
-                          </p>       
+                          Hello, I am Sai Prabhat, a highly skilled Full Stack developer specializing in web and mobile application development. With my expertise in front-end technologies such as HTML, CSS, and JavaScript frameworks like React.js and Angular, I create visually stunning and user-friendly interfaces. On the back-end, I have a strong command of server-side programming languages like Node.js and PHP, along with database management and API integration. </p>       
                           <p className='my-4 font-medium'>
-                          I believe that design is about more than just making things look pretty – its about solving problems and 
-creating intuitive, enjoyable experiences for users. 
-
-                          </p>
-                          <p className=' font-medium'>
-                          Whether I am working on a website, mobile app, or 
-other digital product, I bring my commitment to design excellence and user-centered thinking to 
-every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
-
-                          </p>
+                          I am particularly adept at mobile application development, leveraging cross-platform frameworks like React Native and Flutter to build high-performance apps for both iOS and Android platforms. My attention to detail, commitment to code quality, and focus on delivering seamless user experiences set me apart.</p>
+                          <p className='my-4 font-medium'>
+                          With a collaborative mindset, I thrive in team environments, working closely with stakeholders to understand project requirements and ensure successful outcomes. Continuous learning is a core value of mine, and I stay up to date with the latest industry trends to provide innovative solutions. </p>
+                           <p className=' font-medium'>
+                           If you are seeking a dedicated Full Stack developer to bring your web or mobile projects to life, I am confident in my ability to deliver exceptional results. Let's work together to create impactful digital experiences that exceed your expectations.</p>
+                          
                       </div>
                       
                       <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark 
@@ -85,7 +78,7 @@ every project I work on. I look forward to the opportunity to bring my skills an
                           <div className='flex flex-col items-end justify-center xl:items-center'>
                               <span className=' inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
                                   {/* <AnimatedNumbers value={50} />+ */}
-                                  50+
+                                  25+
                               </span>
                               <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>
                                   Satisfied Clients
@@ -94,7 +87,7 @@ every project I work on. I look forward to the opportunity to bring my skills an
                           <div className='flex flex-col items-end justify-center xl:items-center'>
                               <span className=' inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
                                   {/* <AnimatedNumbers value={40} />+ */}
-                                  40+
+                                  20+
                               </span>
                               <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>
                                   Projects Completed
@@ -103,7 +96,7 @@ every project I work on. I look forward to the opportunity to bring my skills an
                           <div className='flex flex-col items-end justify-center xl:items-center'>
                               <span className=' inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
                                   {/* <AnimatedNumbers value={4} />+ */}
-                                  4+
+                                  3+
                               </span>
                               <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>
                                   Years of experience
