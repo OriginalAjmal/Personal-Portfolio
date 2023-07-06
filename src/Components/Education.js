@@ -57,20 +57,20 @@ const Education = () => {
                     info="Relevant courses included Data Structure and Algorithms, Computer Systems Engineering and Artificial Intelligence."
                   />
                    <Details
-                      type="Bachelor's Of Computer Science" place="University Of Windsor"
-                  time="2020-Present " 
+                      type="12, Computer Science" place="City Montessori School"
+                  time="2011-2019 " 
                     info="Relevant courses included Data Structure and Algorithms, Computer Systems Engineering and Artificial Intelligence."
                   />
                    <Details
+                      type="MERN STACK DEVELOPMENT" place="University Of Helsinki"
+                  time="November 2021 - January 2022 " 
+                    info="Covered topics such as setting up the development environment, creating databases with MongoDB, building server-side applications with Express.js, developing user interfaces with React, and deploying MERN applications. The course aims to equip learners with the skills and knowledge needed to become proficient MERN stack developers."
+                  />
+                   {/* <Details
                       type="Bachelor's Of Computer Science" place="University Of Windsor"
                   time="2020-Present " 
                     info="Relevant courses included Data Structure and Algorithms, Computer Systems Engineering and Artificial Intelligence."
-                  />
-                   <Details
-                      type="Bachelor's Of Computer Science" place="University Of Windsor"
-                  time="2020-Present " 
-                    info="Relevant courses included Data Structure and Algorithms, Computer Systems Engineering and Artificial Intelligence."
-                  />
+                  /> */}
                   
               </ul>
           </div>

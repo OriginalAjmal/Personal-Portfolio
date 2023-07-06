@@ -39,7 +39,7 @@ export default function Home() {
                 A seasoned Full Stack web developer with a passion for crafting exceptional web and mobile applications. With expertise in front-end technologies like React.js and Angular, coupled with strong back-end skills in Node.js and PHP, I create seamless user experiences and scalable solutions. I am dedicated, detail-oriented, and committed to delivering innovative solutions that exceed expectations.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
-                <Link href="/dummy.pdf" target={"_blank"}
+                <Link href="/Resume-Sai.pdf" target={"_blank"}
                   className='flex items-center bg-dark text-light p-2.5 px-6
                 rounded-lg text-lg font-semibolds hover:bg-light hover:text-dark
                 border-2 border-solid border-transparent hover:border-dark

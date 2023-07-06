@@ -54,36 +54,34 @@ const Experience = () => {
 
               <ul className='w-full flex flex-col item-start justify-between ml-4 xs:ml-2'>
                   <Details
-                      positon="Software Engineer" company="Google"
-                      companyLink="www.google.com"
-                  time="2022-Present " address=" Mountain View, CA"
-                  work="Worked on a team responsible for developing new features for Google's 
-                  search engine, including improving the accuracy and relevance of search results and 
-                  developing new tools for data analysis and visualization."
+                      positon="Front-End Developer" company="SpotLine"
+                      companyLink="https://www.spotline.org/"
+                  time="May 2022-October 2022 " address=" Las Vegas, Nevada"
+                      work="Worked using dart and flutter to convert data to graphical interface, thereby creating web applications and sites that render on the client-side.
+                  Handled the position of being the lead developer.Monitored application performance, oversaw traffic drops
+                  related to usability, and prepared for other relevant issues"
                   />
                   <Details
-                      positon="Software Engineer" company="Google"
-                      companyLink="www.google.com"
-                  time="2022-Present " address=" Mountain View, CA"
-                  work="Worked on a team responsible for developing new features for Google's 
-                  search engine, including improving the accuracy and relevance of search results and 
-                  developing new tools for data analysis and visualization."
+                      positon="FrontEnd Developer" company="CoinMint"
+                      companyLink="https://www.coinmint.fund/"
+                  time="June 2022- August 2022 " address=" Bangalore, IN"
+                  work="Worked closely with the creative (UI/UX) team to help
+                  conceptualize and deliver applications and took them from
+                  concept to completion. Implemented features using development process including
+                  design review, code reviews, continuous integration and
+                  automated testing."
                   />
                   <Details
-                      positon="Software Engineer" company="Google"
-                      companyLink="www.google.com"
-                  time="2022-Present " address=" Mountain View, CA"
-                  work="Worked on a team responsible for developing new features for Google's 
-                  search engine, including improving the accuracy and relevance of search results and 
-                  developing new tools for data analysis and visualization."
+                      positon="Coding Instructor" company="Dr.X Academy"
+                      
+                  time="October 2022 - February 2022 " address=" Mountain View, CA"
+                  work="Teaching a group of students the concept of OOP and its usage in Robotics. Providing technical guidance and mentorship to students participating in the FTC competition."
                   />
                   <Details
-                      positon="Software Engineer" company="Google"
-                      companyLink="www.google.com"
-                  time="2022-Present " address=" Mountain View, CA"
-                  work="Worked on a team responsible for developing new features for Google's 
-                  search engine, including improving the accuracy and relevance of search results and 
-                  developing new tools for data analysis and visualization."
+                      positon="MERN Stack Developer" company="Self-Employed"
+
+                  time="2021-Present " address=" Mountain View, CA"
+                  work="As a self-employed MERN stack developer, your work involves developing web applications using MongoDB, Express.js, React, and Node.js. You analyze project requirements, design databases, develop server-side and client-side code, conduct testing and debugging, deploy applications, and provide ongoing maintenance and updates."
                   />
               </ul>
           </div>
