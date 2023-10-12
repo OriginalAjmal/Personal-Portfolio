@@ -23,7 +23,7 @@ export default function Home() {
         <Layout className='pt-0 md:pt-16 sm:pt-8'>
           <div className='flex items-center justify-between w-full lg:flex-col'>
             <div className='w-1/2 md:w-full'>
-              <Image src={profilePic} alt="SaiPrabhat" className='w-full h-auto lg:hidden md:inline-block md:w-full'
+              <Image src={profilePic} alt="AjmalHusain" className='w-full h-auto lg:hidden md:inline-block md:w-full'
                 priority
                 sizes="(max-width:768px) 100vw,
                 (max-width:1200px) 50vw,
@@ -39,7 +39,7 @@ export default function Home() {
                 A seasoned Full Stack web developer with a passion for crafting exceptional web and mobile applications. With expertise in front-end technologies like React.js and Angular, coupled with strong back-end skills in Node.js and PHP, I create seamless user experiences and scalable solutions. I am dedicated, detail-oriented, and committed to delivering innovative solutions that exceed expectations.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
-                <Link href="/Resume-Sai.pdf" target={"_blank"}
+                <Link href="/Resume-Ajmal.pdf" target={"_blank"}
                   className='flex items-center bg-dark text-light p-2.5 px-6
                 rounded-lg text-lg font-semibolds hover:bg-light hover:text-dark
                 border-2 border-solid border-transparent hover:border-dark
@@ -50,7 +50,7 @@ export default function Home() {
                 >Resume
                 <LinkArrow className={"w-6 ml-1"}/>
                 </Link>
-                <Link href="mailto:prabhat@uwindsor.ca" target={"_blank"}
+                <Link href="mailto:husain21@uwindsor.ca" target={"_blank"}
                 className='ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base'
                 >Contact</Link>
               </div>
@@ -60,7 +60,7 @@ export default function Home() {
         </Layout>
         <HireMe />
         <div className='absolute right-8 bottom-8 inline-block w-24 md:hidden'>
-          <Image src={lightBulb} alt="SaiPrabhat" className='w-full h-auto' />
+          <Image src={lightBulb} alt="AjmalHusain" className='w-full h-auto' />
         </div>
       </main>
     </>

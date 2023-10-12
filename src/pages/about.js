@@ -42,7 +42,7 @@ const about = () => {
       <>
           <Head>
               <title>
-                  Sai Prabhat  | About Page
+                  Ajmal Husain  | About Page
               </title>
               <meta name="description" content="any description" />
           </Head>
@@ -54,7 +54,7 @@ const about = () => {
                       <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                           <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'> BioGraphy</h2>
                           <p className='font-medium'>
-                          Hello, I am Sai Prabhat, a highly skilled Full Stack developer specializing in web and mobile application development. With my expertise in front-end technologies such as HTML, CSS, and JavaScript frameworks like React.js and Angular, I create visually stunning and user-friendly interfaces. On the back-end, I have a strong command of server-side programming languages like Node.js and PHP, along with database management and API integration. </p>       
+                          Hello, I am Ajmal Husain, a highly skilled Full Stack developer specializing in web and mobile application development. With my expertise in front-end technologies such as HTML, CSS, and JavaScript frameworks like React.js and Angular, I create visually stunning and user-friendly interfaces. On the back-end, I have a strong command of server-side programming languages like Node.js and PHP, along with database management and API integration. </p>       
                           <p className='my-4 font-medium'>
                           I am particularly adept at mobile application development, leveraging cross-platform frameworks like React Native and Flutter to build high-performance apps for both iOS and Android platforms. My attention to detail, commitment to code quality, and focus on delivering seamless user experiences set me apart.</p>
                           <p className='my-4 font-medium'>
@@ -68,7 +68,7 @@ const about = () => {
                       bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8
                       '>
                           <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light' />
-                          <Image src={profilePic} alt='SaiPrabhat' className='w-full h-auto rounded-2xl'
+                          <Image src={profilePic} alt='AjmalHusain' className='w-full h-auto rounded-2xl'
                           priority
                           sizes="(max-width:768px) 100vw,
                           (max-width:1200px) 50vw,

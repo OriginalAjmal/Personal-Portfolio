@@ -79,20 +79,20 @@ const NavBar = () => {
           </nav>
         
           <nav className='flex items-center justify-center flex-wrap'>
-              <motion.a href="https://twitter.com/SaiPrabhat2" target={"_blank"}
+              <motion.a href="https://twitter.com/AjmalHusain_" target={"_blank"}
                   whileHover={{ y: -2 }}
                   whileTap={{scale:0.9}}
                   className='w-6 mr-3'
               >
                   <TwitterIcon />
               </motion.a>
-              <motion.a href="https://www.linkedin.com/in/sai-p-b0036a154/" target={"_blank"}
+              <motion.a href="https://www.linkedin.com/in/ajmal-husain-1231341a2/" target={"_blank"}
                   whileHover={{ y: -2 }}
                   whileTap={{scale:0.9}}
                className='w-6 mx-3'>
                   <LinkedInIcon />
               </motion.a>
-              <motion.a href="https://github.com/saiprabhat" target={"_blank"}
+              <motion.a href="https://github.com/OriginalAjmal" target={"_blank"}
                   whileHover={{ y: -2 }}
                   whileTap={{scale:0.9}}
                className='w-6 ml-3'>
